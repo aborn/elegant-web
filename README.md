@@ -4,12 +4,14 @@ This web application build on phoenixframework, and use elixir-lang for dev.
 ## Dependency
 1. elixir env.  
 2. install [phoenixframework](http://www.phoenixframework.org/docs/installation).
+3. node 0.12+
 
 ## Start the app
-
-  1. Install dependencies with `mix deps.get`
-  2. Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  3. Start Phoenix endpoint with `mix phoenix.server`
+1. Install node depedencies:
+```
+npm install
+```
+2. Start Phoenix endpoint with `mix phoenix.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
