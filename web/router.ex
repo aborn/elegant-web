@@ -17,8 +17,9 @@ defmodule Elegantweb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/hello", HelloController, :hello      #请求转发
+    get "/hello", HelloController, :hello       #请求转发
     get "/hello/:name", HelloController, :show  #参数转发
+    get "/getjson", HelloController, :getJson   #返回json数据
   end
 
   # Other scopes may use custom stacks.
